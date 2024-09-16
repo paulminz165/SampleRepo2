@@ -1004,6 +1004,13 @@ Bundle-DocURL:
         <version>${core.wcm.components.version}</version>
                     
       </dependency>
+      
+      <dependency>
+        <groupId>com.day.cq.wcm</groupId>
+        <artifactId>cq-wcm-api</artifactId>
+        <version>1.31.0</version> <!-- Use the required version -->
+        <scope>provided</scope>
+    </dependency>
                   
       <!-- Testing -->
                   

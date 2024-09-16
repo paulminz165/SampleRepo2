@@ -81,6 +81,21 @@ Import-Package: javax.annotation;version=0.0.0,*
     </build>
 
     <dependencies>
+        <!-- Sandip test -->
+        <dependency>
+            <groupId>com.day.cq.wcm</groupId>
+            <artifactId>cq-wcm-api</artifactId>
+            <version>5.9.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.sling/org.apache.sling.api -->
+        <dependency>
+            <artifactId>org.apache.sling.api</artifactId>
+            <version>2.18.4</version>
+            <groupId>org.apache.sling</groupId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Sandip test -->
         <dependency>
             <groupId>uk.org.lidalia</groupId>
             <artifactId>slf4j-test</artifactId>
